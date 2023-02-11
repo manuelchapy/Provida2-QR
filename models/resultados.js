@@ -11,6 +11,6 @@ const resultadoSchema = new Schema({
     modificado:             {type: Number}  //0 PARA PENDIENTE POR MODIFICAR EN CLOUD, 1 PARA MODIFICAO EN CLOUD
 });
 
-clientes = model('resultados_qrs', resultadoSchema, 'resultados_qrs_pv2');
+clientes = model('resultados_qrs', resultadoSchema, 'resultados_qr_pv2');
 
 module.exports = clientes;

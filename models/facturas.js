@@ -40,6 +40,6 @@ const facturaSchema = new Schema({
     subido:                       {type: Number}
 });
 
-facturas = model('facturas_qrs', facturaSchema, 'facturas_qrs_pv2');
+facturas = model('facturas_qrs', facturaSchema, 'facturas_qr_pv2');
 
 module.exports = facturas;
